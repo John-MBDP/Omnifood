@@ -146,7 +146,8 @@ body {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  /* Disabled because doesn't look good Used for going through the page only using the keyboard */
+  /* box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5); */
 }
 
 .container {
@@ -179,6 +180,9 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
